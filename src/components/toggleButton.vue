@@ -12,7 +12,7 @@ export default {
         toggleStyle() {
             const htmlSelector = document.querySelector('html');
             
-            htmlSelector.setAttribute('data-theme', htmlSelector.getAttribute('data-theme') === 'light' ? 'dark' : 'light');
+            htmlSelector.setAttribute('data-theme', htmlSelector.getAttribute('data-theme') === 'bumblebee' ? 'synthwave' : 'bumblebee');
             
         }
     }

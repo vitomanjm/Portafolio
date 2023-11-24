@@ -1,5 +1,5 @@
 <template>
-    <div class=" flex">
+    <div class="flex">
         <div class="navbar mt-4">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -30,23 +30,17 @@
                                 <li class="m-1 p-1"><a>Contact information</a></li>
                             </button>
                         </router-link>
-
                     </ul>
                 </div>
             </div>
-
-            <div class="flex navbar-center">
+            <div class="navbar-center">
                 <router-link class="btn btn-ghost normal-case text-4xl " :to="{ name: 'Home' }">VICKTOR JAIMES</router-link>
             </div>
-
             <div class="navbar-end">
                 <toggleButton></toggleButton>
             </div>
-
         </div>
-
     </div>
-
     <div class="flex-none">
         <slot></slot>
     </div>

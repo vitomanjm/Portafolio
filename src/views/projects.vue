@@ -1,14 +1,14 @@
 <template>
-    <div class="flex m-8">
+    <div class="flex m-4">
         <div class="justify-center w-auto h-auto">
-            <div class="flex ml-96">
-                <h1 class="ml-16">My Projects</h1>
+            <div class="items-center text-center">
+                <h1>My Projects</h1>
             </div>
-            <div class="mr-48">
+            <div class="">
                 <div class="card w-auto bg-neutral text-neutral-content m-8">
                     <div class="card-body items-center text-center">
                         <p class="text-center">
-                            Github repository: <a class="  font-black hover:font-bold"
+                            Github repository: <a class="font-black hover:font-bold"
                                 href="https://github.com/vitomanjm">Vitomanjm Repositories</a>
                             <br>
                             I have different basic projects that I have developed on my own, testing my knowledge in HTML,
@@ -19,7 +19,7 @@
                 <div class="card w-auto bg-neutral text-neutral-content m-8">
                     <div class="card-body items-center text-center">
                         <p class="text-center">
-                            Agent tool App: <a class="  font-black hover:font-bold"
+                            Agent tool App: <a class="font-black hover:font-bold"
                                 href="https://github.com/vitomanjm/agent-tool-app">Agent tool Repository</a>
                             <br>
                             This is the lastest project I have been working on, where I have been putting in practice my
@@ -28,7 +28,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
