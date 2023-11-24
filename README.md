@@ -1,8 +1,6 @@
 # vue-project
 
-This is my first project working with Vue.js
-
-On this project, I am developing an application that consists of three tools. An alarm, a To Do list and an hours calculator that would provide you with the distance between two different hours. 
+This is my Professional portfolio, it is a project that I have  developed with Vue.js and Tailwind
 
 This template should help get you started developing with Vue 3 in Vite.
 
